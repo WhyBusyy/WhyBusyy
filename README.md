@@ -60,6 +60,12 @@ Here are some ideas to get you started:
 
 ---
 
+| 프로젝트명 | 맡은 역할 | GitHub 주소 | 배포 |  
+|---|---|---|---|
+| ANGO | 프론트엔드 | https://github.com/SesacWannaSIT | [angosipda.site](https://www.angosipda.site/)
+
+---
+
 ### 🏅 Top Langs
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WhyBusyy&layout=compact)
 
