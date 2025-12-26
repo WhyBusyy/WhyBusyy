@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 ### 🙇 안녕하세요, 프론트엔드 개발자 유병규입니다!
 
-* 성장을 추구하며, 문제해결을 즐기는 개발자
+* 문제 해결 본질에 집중하는 개발자
 * 커뮤니케이션의 중요성을 아는 개발자
 * 사용자 경험을 개선하기 위해 노력하는 개발자
   
@@ -69,9 +69,8 @@ Here are some ideas to get you started:
 | 프로젝트명 | 역할 | 개요 | 스크린샷 |  
 |:---:|:---:|:---:|:---:|
 | ANGO | FE | 지하철 경로상 가장 빠르게 앉아갈 수 있는 칸을 추천 (칸 별 혼잡도 api, 칸 별 하차 비율 api, 시간대 별 하차 인원 공공데이터 기반) - `SESAC JS풀스택 과정 팀프로젝트 1등` // [angosipda.site](https://www.angosipda.site/) | <img width="200" alt="스크린샷 2024-03-12 오전 11 43 58" src="https://github.com/WhyBusyy/WhyBusyy/assets/148039117/5a32347c-6747-4a10-85c3-1558c5639193"> |
+|:---:|:---:|:---:|:---:|
+| PLATPHARM | FE,BE | 의약품 직거래 통합관리 플랫폼 - `TIPS 투자프로그램 선정` // [플랫팜.site](https://www.platpharm.co.kr/) | |
 
 
 ---
-
-### 🏅 Top Langs
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WhyBusyy&layout=compact)
