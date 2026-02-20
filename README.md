@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=30&pause=1000&color=24B5F7&vCenter=true&random=false&width=400&lines=%F0%9F%91%8B+Hello+World!)](https://git.io/typing-svg)
 
-### 🙇 안녕하세요, 프론트엔드 개발자 유병규입니다!
+### 🙇 안녕하세요, 웹 개발자 유병규입니다!
 
 ---
 
