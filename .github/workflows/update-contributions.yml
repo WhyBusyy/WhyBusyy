@@ -2,64 +2,24 @@ name: Update OSS Contributions
 
 on:
   schedule:
-    - cron: '0 0 * * 1' # 매주 월요일 자정 (UTC)
-  workflow_dispatch: # 수동 실행 가능
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
 
 jobs:
-  update:
+  metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Fetch external OSS contributions
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # 외부 오픈소스 기여 PR 조회 (회사/팀 org 제외)
-          gh search prs --author=WhyBusyy --merged --limit 50 \
-            --json repository,title,url,closedAt \
-            -- -org:WhyBusyy -org:platpharm -org:SesacWannaSIT \
-            | jq -r '
-              group_by(.repository.fullName)
-              | map({
-                  repo: .[0].repository.fullName,
-                  prs: map({title: .title, url: .url, date: (.closedAt[:10])})
-                })
-              | sort_by(.repo)
-              | .[] |
-              "#### [\(.repo)](https://github.com/\(.repo))\n" +
-              (.prs | map("- [\(.title)](\(.url)) (`\(.date)`)") | join("\n")) +
-              "\n"
-            ' > /tmp/contributions.md
-
-          # 기여 내역이 없으면 기본 메시지
-          if [ ! -s /tmp/contributions.md ]; then
-            echo "_아직 외부 오픈소스 기여 내역이 없습니다._" > /tmp/contributions.md
-          fi
-
-          # README 마커 사이에 내용 교체
-          python3 << 'PYEOF'
-          import re
-
-          with open("README.md", "r") as f:
-              readme = f.read()
-
-          with open("/tmp/contributions.md", "r") as f:
-              contributions = f.read().strip()
-
-          pattern = r"(<!--START_OSS_CONTRIBUTIONS-->).*?(<!--END_OSS_CONTRIBUTIONS-->)"
-          replacement = rf"\1\n{contributions}\n\2"
-          updated = re.sub(pattern, replacement, readme, flags=re.DOTALL)
-
-          with open("README.md", "w") as f:
-              f.write(updated)
-          PYEOF
-
-      - name: Commit and push if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: lowlighter/metrics@latest
         with:
-          commit_message: 'chore: update OSS contributions'
-          file_pattern: README.md
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: assets/notable-contributions.svg
+          base: ""
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit, pull_request
+          plugin_notable_indepth: yes
+          config_order: notable

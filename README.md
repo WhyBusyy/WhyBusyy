@@ -123,13 +123,11 @@
 
 ### 🌍 Open Source Contributions
 
-<!--START_OSS_CONTRIBUTIONS-->
-#### [null](https://github.com/null)
-- [[lexical-playground] Fix: use inline style for LayoutContainerNode import](https://github.com/facebook/lexical/pull/8214) (`2026-03-12`)
-- [fix: replace grep -P with grep -E in core-04 check.sh](https://github.com/furkan/dockerlings/pull/2) (`2025-11-28`)
-<!--END_OSS_CONTRIBUTIONS-->
+<a href="https://github.com/WhyBusyy">
+  <img src="assets/notable-contributions.svg" alt="Notable Open Source Contributions" />
+</a>
 
-> _이 섹션은 [GitHub Actions](.github/workflows/update-contributions.yml)에 의해 매주 자동 업데이트됩니다._
+> _이 카드는 [GitHub Actions](.github/workflows/update-contributions.yml)에 의해 매주 자동 업데이트됩니다._
 
 ---
 
