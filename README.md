@@ -121,6 +121,20 @@
 
 ---
 
+### 🌍 Open Source Contributions
+
+<!--START_OSS_CONTRIBUTIONS-->
+#### [facebook/lexical](https://github.com/facebook/lexical)
+- [[lexical-playground] Fix: use inline style for LayoutContainerNode import](https://github.com/facebook/lexical/pull/8214) (`2026-03-12`)
+
+#### [furkan/dockerlings](https://github.com/furkan/dockerlings)
+- [fix: replace grep -P with grep -E in core-04 check.sh](https://github.com/furkan/dockerlings/pull/2) (`2025-11-28`)
+<!--END_OSS_CONTRIBUTIONS-->
+
+> _이 섹션은 [GitHub Actions](.github/workflows/update-contributions.yml)에 의해 매주 자동 업데이트됩니다._
+
+---
+
 ### 📚 학력 및 자격증
 
 **학력**
