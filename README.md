@@ -29,11 +29,7 @@
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=WhyBusyy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide_title=true" />
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=WhyBusyy&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide_title=true" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=WhyBusyy&layout=compact&theme=tokyonight&hide_border=true&hide_title=true" />
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WhyBusyy&layout=compact&hide_border=true&hide_title=true" />
-</picture>
+![Followers](https://img.shields.io/github/followers/WhyBusyy?style=for-the-badge&logo=github&logoColor=white&label=Followers&color=24B5F7)
+![npm downloads](https://img.shields.io/npm/dt/tiptap-editor-kit?style=for-the-badge&logo=npm&logoColor=white&label=tiptap-editor-kit&color=CB3837)
+![Stars](https://img.shields.io/github/stars/WhyBusyy/tiptap-editor-kit?style=for-the-badge&logo=github&logoColor=white&label=Stars&color=24B5F7)
+![Profile Views](https://komarev.com/ghpvc/?username=WhyBusyy&style=for-the-badge&label=Profile+Views&color=24B5F7)
