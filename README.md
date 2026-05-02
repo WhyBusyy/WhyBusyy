@@ -30,10 +30,10 @@
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=WhyBusyy&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&hide_title=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=WhyBusyy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide_title=true" />
   <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=WhyBusyy&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide_title=true" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=WhyBusyy&layout=compact&theme=transparent&hide_border=true&hide_title=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=WhyBusyy&layout=compact&theme=tokyonight&hide_border=true&hide_title=true" />
   <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WhyBusyy&layout=compact&hide_border=true&hide_title=true" />
 </picture>
