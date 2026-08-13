@@ -5,7 +5,7 @@
 > Next.js · TypeScript · React로 웹 서비스를 만들고, 필요하면 NestJS 백엔드까지 직접 짓습니다.
 > 반복을 없애고, 기준을 코드에 남깁니다.
 
-🌐 **[Portfolio](https://portfolio-beta-olive-83.vercel.app)** · ✉️ ybg6152@naver.com · 📍 Seoul
+🌐 **[Portfolio](https://whybusyy.vercel.app)** · ✉️ ybg6152@naver.com · 📍 Seoul
 
 ---
 
