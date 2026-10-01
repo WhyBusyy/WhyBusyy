@@ -1,8 +1,8 @@
 ### 안녕하세요 👋
 
-**유병규 · Frontend Developer**
+**유병규 · Web · Product Engineer**
 
-> Next.js · TypeScript · React로 웹 서비스를 만들고, 필요하면 NestJS 백엔드까지 직접 짓습니다.
+> 제품의 문제를 찾아 끝까지 해결합니다. 프론트엔드에서 백엔드, 자동화까지 필요한 만큼 직접 만듭니다.
 > 반복을 없애고, 기준을 코드에 남깁니다.
 
 🌐 **[Portfolio](https://whybusyy.vercel.app)** · ✉️ ybg6152@naver.com · 📍 Seoul
